@@ -41,8 +41,10 @@ namespace WarehouseApp
 
             this.Loaded += MainWindow_Loaded;
 
+            
             // كود التحقق من التحديثات
-            AutoUpdater.Start("https://raw.githubusercontent.com/dedangue27-ai/WarehouseApp/main/update.xml");
+            AutoUpdater.ReportErrors = true;
+            AutoUpdater.Start("https://raw.githubusercontent.com/dedangue27-ai/WarehouseApp/refs/heads/main/update.xml");
         }
 
         // دالة لفتح نافذة التعديل عند النقر المزدوج على صف المنتج
