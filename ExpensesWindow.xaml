@@ -1,0 +1,59 @@
+﻿<Window x:Class="WarehouseApp.ExpensesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WarehouseApp"
+        mc:Ignorable="d"
+        Title="Gestion des Charges" Height="500" Width="950" FlowDirection="LeftToRight" x:Name="ExprWindow"
+        Background="#F8FAFC" FontFamily="Segoe UI">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="BtnBackToMain" 
+Content="⬅ Retour au menu" 
+Width="150" 
+Height="35" 
+HorizontalAlignment="Left" 
+Margin="737,15,0,0" 
+Click="BtnBackToMain_Click" VerticalAlignment="Top"/>
+        <!-- حقول إدخال مصروف جديد -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="-10,7,10,8">
+            <TextBox x:Name="TxtExpenseName" Width="140" Margin="3" Padding="5" Tag="Nom de la charge"/>
+            <TextBox x:Name="TxtExpenseAmount" Width="85" Margin="3" Padding="5" Tag="Montant"/>
+            <TextBox x:Name="TxtExpensePaye" Width="85" Margin="3" Padding="5" Tag="Payé"/>
+            <ComboBox x:Name="CmbExpenseType" Width="95" Margin="3" Padding="5">
+                <ComboBoxItem Content="Mensuel" IsSelected="True"/>
+                <ComboBoxItem Content="Annuel"/>
+                <ComboBoxItem Content="Jour"/>
+                <ComboBoxItem Content="crédit"/>
+            </ComboBox>
+
+            <!-- خانة تاريخ السداد الكامل الصحيحة -->
+            
+
+            <Button x:Name="BtnAddExpense" Content="Ajouter Charge" Click="BtnAddExpense_Click" Width="115" Margin="3" Background="#3B82F6" Foreground="White"/>
+        </StackPanel>
+
+        <!-- جدول عرض المصاريف (واحد فقط في مكانه الصحيح) -->
+        <DataGrid x:Name="ExpensesGrid" Grid.Row="1" AutoGenerateColumns="True" IsReadOnly="True" Margin="0,0,0,15" Background="Transparent" BorderBrush="#E2E8F0" MouseDoubleClick="ExpensesGrid_MouseDoubleClick"/>
+
+        <!-- إجمالي المصاريف والمجاميع اليومية والشهرية والسنوية -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Left">
+            <TextBlock x:Name="LblTotal" Text="Total : " FontWeight="Bold" VerticalAlignment="Center"/>
+            <TextBlock x:Name="TxtTotalExpenses" Text="0.00 DA" FontWeight="Bold" Foreground="Red" VerticalAlignment="Center" Margin="0,0,15,0"/>
+
+            <TextBlock x:Name="LblDaily" Text="Jour : " FontWeight="Bold" VerticalAlignment="Center"/>
+            <TextBlock x:Name="TxtDailyExpenses" Text="0.00 DA" FontWeight="Bold" Foreground="Orange" VerticalAlignment="Center" Margin="0,0,15,0"/>
+
+            <TextBlock x:Name="LblMonthly" Text="Mensuel : " FontWeight="Bold" VerticalAlignment="Center"/>
+            <TextBlock x:Name="TxtMonthlyExpenses" Text="0.00 DA" FontWeight="Bold" Foreground="Blue" VerticalAlignment="Center" Margin="0,0,15,0"/>
+
+            <TextBlock x:Name="LblYearly" Text="Annuel : " FontWeight="Bold" VerticalAlignment="Center"/>
+            <TextBlock x:Name="TxtYearlyExpenses" Text="0.00 DA" FontWeight="Bold" Foreground="Green" VerticalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>

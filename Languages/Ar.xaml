@@ -1,0 +1,67 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="AppTitle">نظام إدارة المخازن ونقطة البيع - الاحترافي</s:String>
+    <s:String x:Key="MenuInventory">📦 إدارة المخزن والمنتجات</s:String>
+    <s:String x:Key="MenuSales">🛒 نقطة البيع المباشر (POS)</s:String>
+    <s:String x:Key="MenuAddProduct">➕ إضافة منتج</s:String>
+    <s:String x:Key="MenuAddUser">👤 إضافة مستخدم جديد</s:String>
+    <s:String x:Key="MenuLogs">📋 سجل العمليات والنشاطات</s:String>
+    <s:String x:Key="Logout">🚪 تسجيل الخروج</s:String>
+    <s:String x:Key="SearchPlaceholder">بحث...</s:String>
+    <s:String x:Key="SearchBtn">🔍 بحث</s:String>
+    <s:String x:Key="RefreshBtn">🔄 تحديث</s:String>
+    <s:String x:Key="EditBtn">✏️ تعديل</s:String>
+    <FlowDirection x:Key="MainFlowDirection">RightToLeft</FlowDirection>
+    <s:String x:Key="SalesTitleKey">نظام المبيعات ونقطة البيع - POS</s:String>
+    <s:String x:Key="SearchPromptKey">🔍 ابحث بالاسم أو امسح الباركود ثم اضغط Enter للإضافة</s:String>
+    <s:String x:Key="AddToCartKey">إضافة للسلة</s:String>
+    <s:String x:Key="BarcodeColumnKey">الباركود</s:String>
+    <s:String x:Key="ProductNameColumnKey">اسم المنتج</s:String>
+    <s:String x:Key="AvailableColumnKey">المتاح</s:String>
+    <s:String x:Key="PriceColumnKey">السعر</s:String>
+    <s:String x:Key="RequestedQtyColumnKey">الكمية المطلوبة</s:String>
+    <s:String x:Key="TotalColumnKey">الإجمالي</s:String>
+    <s:String x:Key="ActionColumnKey">إجراء</s:String>
+    <s:String x:Key="InvoiceDetailsKey">تفاصيل الفاتورة</s:String>
+    <s:String x:Key="SubTotalKey">المجموع الفرعي:</s:String>
+    <s:String x:Key="DiscountKey">التخفيض / الخصم</s:String>
+    <s:String x:Key="GrandTotalKey">المبلغ الإجمالي النهائي</s:String>
+    <s:String x:Key="CompleteSaleKey">🔒 تأكيد وإتمام البيع</s:String>
+    <s:String x:Key="CancelInvoiceKey">إلغاء الفاتورة</s:String>
+
+    <s:String x:Key="AddProductTitleKey">إضافة منتج جديد</s:String>
+    <s:String x:Key="ProductNameLabelKey">اسم المنتج:</s:String>
+    <s:String x:Key="BarcodeLabelKey">الباركود:</s:String>
+    <s:String x:Key="PurchasePriceLabelKey">سعر الشراء:</s:String>
+    <s:String x:Key="SellingPriceLabelKey">سعر البيع:</s:String>
+    <s:String x:Key="QuantityLabelKey">الكمية:</s:String>
+    <s:String x:Key="CategoryLabelKey">التصنيف:</s:String>
+    <s:String x:Key="SaveProductKey">حفظ المنتج</s:String>
+
+    <s:String x:Key="IdColumnKey">المعرف</s:String>
+    <s:String x:Key="CategoryColumnKey">التصنيف</s:String>
+    <s:String x:Key="MinQuantityColumnKey">الحد الأدنى</s:String>
+    <s:String x:Key="LogsTitleKey">سجل النشاطات والنظام</s:String>
+    <s:String x:Key="CurrencyUnit">د.ج</s:String>
+    <s:String x:Key="LanguageLabelKey">🌐 لغة الواجهة</s:String>
+    <s:String x:Key="CurrentUserKey">المستخدم الحالي</s:String>
+    <s:String x:Key="MainSectionsKey">الأقسام الرئيسية</s:String>
+
+    <s:String x:Key="AddUserTitleKey">إضافة مستخدم جديد</s:String>
+    <s:String x:Key="UsernameLabelKey">اسم المستخدم:</s:String>
+    <s:String x:Key="PasswordLabelKey">كلمة المرور:</s:String>
+    <s:String x:Key="RoleLabelKey">الصلاحية / الدور:</s:String>
+    <s:String x:Key="SaveUserKey">حفظ المستخدم</s:String>
+
+    <s:String x:Key="InventoryManagementKey">إدارة المخزون</s:String>
+    <s:String x:Key="PageTitleInventory">إدارة المخزون</s:String>
+
+    <s:String x:Key="CurrencyKey">د.ج</s:String>
+    <s:String x:Key="DailyRevenueKey">المردود اليومي (مبيعات اليوم)</s:String>
+    <s:String x:Key="MonthlyProfitKey">الفائدة / الأرباح الشهرية</s:String>
+    <s:String x:Key="ActivityLogsKey">سجل النشاطات</s:String>
+    <s:String x:Key="AdminRoleKey">مدير النظام (Admin)</s:String>
+    <s:String x:Key="SellerRoleKey">بائع (Seller)</s:String>
+    <s:String x:Key="RoleColumnKey">صلاحية المستخدم</s:String>
+</ResourceDictionary>

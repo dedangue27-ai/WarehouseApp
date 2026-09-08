@@ -1,0 +1,26 @@
+﻿<Window x:Class="WarehouseApp.ReturnItemsSelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sélectionner le produit à retourner" Height="400" Width="700"
+        WindowStartupLocation="CenterOwner" FlowDirection="LeftToRight" Background="#F8FAFC">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Double-cliquez sur le produit que vous souhaitez retourner :" FontSize="14" FontWeight="Bold" Foreground="#1E3A8A" Margin="0,0,0,10"/>
+
+        <DataGrid x:Name="ProductsGrid" Grid.Row="1" AutoGenerateColumns="False" CanUserAddRows="False"
+                  Background="Transparent" BorderThickness="0" GridLinesVisibility="Horizontal"
+                  HorizontalGridLinesBrush="#E2E8F0" RowHeight="40" FontSize="14"
+                  MouseDoubleClick="ProductsGrid_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding ProductId}" Width="50" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Nom du produit" Binding="{Binding ProductName}" Width="*" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Quantité" Binding="{Binding Quantity}" Width="90" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Prix Original" Binding="{Binding UnitPrice, StringFormat={}{0:N2}}" Width="110" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Prix Réduit" Binding="{Binding DiscountedPrice, StringFormat={}{0:N2}}" Width="110" IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

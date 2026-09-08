@@ -1,0 +1,463 @@
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\AddUserWindow.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\DamagedProductsWindow.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\Languages\Ar.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\Languages\En.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\Languages\Fr.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\LoginWindow.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\LogsWindow.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\PasswordDialog.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\PasswordPromptWindow.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\ProductDialog.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\ReturnItemsSelectionWindow.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\SalesHistoryWindow.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\SalesWindow.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\SellerRevenueWindow.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\SplashScreen.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\Styles\ModernStyles.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\TableResizePreviewWindow.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\AddUserWindow.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\Calcul des intérêts (bénéfice net).g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\DamagedProductsWindow.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\ExpensesWindow.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\LoginWindow.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\LogsWindow.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\PasswordDialog.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\PasswordPromptWindow.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\ProductDialog.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\ReturnItemsSelectionWindow.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\SalesHistoryWindow.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\SalesWindow.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\SellerRevenueWindow.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\SplashScreen.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\TableResizePreviewWindow.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_Content.g.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_MarkupCompile.cache
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_MarkupCompile.lref
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.exe
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.dll.config
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.deps.json
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.runtimeconfig.json
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.dll
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.pdb
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\LiveCharts.dll
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\LiveCharts.Wpf.dll
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\Microsoft.Data.Sqlite.dll
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.core.dll
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-riscv64\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-riscv64\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\Calcul des intérêts (bénéfice net).baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\ExpensesWindow.baml
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.g.resources
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\Warehous.D20347B5.Up2Date
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.dll
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\refint\WarehouseApp.dll
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.pdb
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\test INVENTORY 1\WarehouseApp\WarehouseApp\obj\Debug\net10.0-windows\ref\WarehouseApp.dll
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.exe
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.dll.config
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.deps.json
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.runtimeconfig.json
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.dll
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.pdb
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\LiveCharts.dll
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\LiveCharts.Wpf.dll
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\Microsoft.Data.Sqlite.dll
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.core.dll
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-riscv64\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-riscv64\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.csproj.AssemblyReference.cache
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\AddUserWindow.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\DamagedProductsWindow.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Languages\Ar.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Languages\En.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Languages\Fr.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\LoginWindow.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\LogsWindow.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\PasswordDialog.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\PasswordPromptWindow.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ProductDialog.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ReturnItemsSelectionWindow.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SalesHistoryWindow.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SalesWindow.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SellerRevenueWindow.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SplashScreen.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Styles\ModernStyles.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\TableResizePreviewWindow.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\AddUserWindow.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Calcul des intérêts (bénéfice net).g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\DamagedProductsWindow.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ExpensesWindow.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\LoginWindow.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\LogsWindow.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\PasswordDialog.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\PasswordPromptWindow.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ProductDialog.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ReturnItemsSelectionWindow.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SalesHistoryWindow.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SalesWindow.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SellerRevenueWindow.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SplashScreen.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\TableResizePreviewWindow.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_Content.g.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_MarkupCompile.cache
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_MarkupCompile.lref
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Calcul des intérêts (bénéfice net).baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ExpensesWindow.baml
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.g.resources
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.AssemblyInfoInputs.cache
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.AssemblyInfo.cs
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.csproj.CoreCompileInputs.cache
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Warehous.D20347B5.Up2Date
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.dll
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\refint\WarehouseApp.dll
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.pdb
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.genruntimeconfig.cache
+C:\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ref\WarehouseApp.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.exe
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.dll.config
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.deps.json
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.runtimeconfig.json
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.pdb
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\LiveCharts.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\LiveCharts.Wpf.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\Microsoft.Data.Sqlite.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.batteries_v2.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.core.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-riscv64\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-ppc64le\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-riscv64\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.csproj.AssemblyReference.cache
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\AddUserWindow.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\DamagedProductsWindow.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Languages\Ar.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Languages\En.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Languages\Fr.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\LoginWindow.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\LogsWindow.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\MainWindow.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\PasswordDialog.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\PasswordPromptWindow.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ProductDialog.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ReturnItemsSelectionWindow.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SalesHistoryWindow.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SalesWindow.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SellerRevenueWindow.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SplashScreen.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Styles\ModernStyles.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\TableResizePreviewWindow.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\AddUserWindow.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Calcul des intérêts (bénéfice net).g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\DamagedProductsWindow.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ExpensesWindow.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\LoginWindow.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\LogsWindow.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\MainWindow.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\PasswordDialog.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\PasswordPromptWindow.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ProductDialog.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ReturnItemsSelectionWindow.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SalesHistoryWindow.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SalesWindow.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SellerRevenueWindow.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\SplashScreen.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\TableResizePreviewWindow.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\App.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_Content.g.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_MarkupCompile.cache
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_MarkupCompile.lref
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Calcul des intérêts (bénéfice net).baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ExpensesWindow.baml
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.g.resources
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.GeneratedMSBuildEditorConfig.editorconfig
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.AssemblyInfoInputs.cache
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.AssemblyInfo.cs
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.csproj.CoreCompileInputs.cache
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\Warehous.D20347B5.Up2Date
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\refint\WarehouseApp.dll
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.pdb
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.genruntimeconfig.cache
+\\DESKTOP-7DF6M7R\Users\Public\WarehouseApp\obj\Debug\net10.0-windows\ref\WarehouseApp.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.exe
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.dll.config
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.deps.json
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.runtimeconfig.json
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.pdb
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\LiveCharts.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\LiveCharts.Wpf.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\Microsoft.Data.Sqlite.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.batteries_v2.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.core.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-riscv64\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-riscv64\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.csproj.AssemblyReference.cache
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\AddUserWindow.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\DamagedProductsWindow.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Languages\Ar.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Languages\En.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Languages\Fr.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\LoginWindow.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\LogsWindow.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\PasswordDialog.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\PasswordPromptWindow.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ProductDialog.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ReturnItemsSelectionWindow.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SalesHistoryWindow.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SalesWindow.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SellerRevenueWindow.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SplashScreen.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Styles\ModernStyles.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\TableResizePreviewWindow.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\AddUserWindow.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Calcul des intérêts (bénéfice net).g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\DamagedProductsWindow.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ExpensesWindow.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\LoginWindow.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\LogsWindow.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\PasswordDialog.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\PasswordPromptWindow.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ProductDialog.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ReturnItemsSelectionWindow.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SalesHistoryWindow.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SalesWindow.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SellerRevenueWindow.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SplashScreen.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\TableResizePreviewWindow.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_Content.g.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_MarkupCompile.cache
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_MarkupCompile.lref
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Calcul des intérêts (bénéfice net).baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ExpensesWindow.baml
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.g.resources
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.AssemblyInfoInputs.cache
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.AssemblyInfo.cs
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.csproj.CoreCompileInputs.cache
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Warehous.D20347B5.Up2Date
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\refint\WarehouseApp.dll
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.pdb
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.genruntimeconfig.cache
+C:\Users\MON PC\OneDrive\Desktop\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ref\WarehouseApp.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.exe
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.dll.config
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.deps.json
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.runtimeconfig.json
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\WarehouseApp.pdb
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\AutoUpdater.NET.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\LiveCharts.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\LiveCharts.Wpf.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\Microsoft.Data.Sqlite.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.batteries_v2.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.core.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\ar\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\cs\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\da\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\de\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\es\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\fr\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\it\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\ja-JP\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\ko\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\lv\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\nl\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\pl\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\pt-BR\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\pt\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\ru\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\sk\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\sv\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\th\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\tr\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\zh-TW\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\zh\AutoUpdater.NET.resources.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-riscv64\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-riscv64\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.Core.xml
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.WinForms.xml
+D:\Nouveau dossier\WarehouseApp\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.Wpf.xml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.csproj.AssemblyReference.cache
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\AddUserWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\DamagedProductsWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\DevAuditWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Languages\Ar.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Languages\En.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Languages\Fr.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\LoginWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\LogsWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\MainWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\PasswordDialog.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\PasswordPromptWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ProductDialog.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ReturnItemsSelectionWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SalesHistoryWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SalesWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SellerRevenueWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SplashScreen.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Styles\ModernStyles.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\TableResizePreviewWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\AddUserWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Calcul des intérêts (bénéfice net).g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\DamagedProductsWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\DevAuditWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ExpensesWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\LoginWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\LogsWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\MainWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\PasswordDialog.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\PasswordPromptWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ProductDialog.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ReturnItemsSelectionWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SalesHistoryWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SalesWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SellerRevenueWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\SplashScreen.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\TableResizePreviewWindow.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\App.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_Content.g.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_MarkupCompile.cache
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp_MarkupCompile.lref
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Calcul des intérêts (bénéfice net).baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ExpensesWindow.baml
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.g.resources
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.AssemblyInfoInputs.cache
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.AssemblyInfo.cs
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.csproj.CoreCompileInputs.cache
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\Warehous.D20347B5.Up2Date
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.dll
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\refint\WarehouseApp.dll
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.pdb
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\WarehouseApp.genruntimeconfig.cache
+D:\Nouveau dossier\WarehouseApp\obj\Debug\net10.0-windows\ref\WarehouseApp.dll

@@ -1,0 +1,44 @@
+﻿<Window x:Class="WarehouseApp.SellersRevenueWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Revenus des Vendeurs (Journalier et Mensuel)" Height="500" Width="750"
+        WindowStartupLocation="CenterScreen" FlowDirection="LeftToRight"
+        Background="#F8FAFC" FontFamily="Segoe UI">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="BtnBackToMain" 
+  Content="⬅ Retour au menu" 
+  Width="150" 
+  Height="35" 
+  HorizontalAlignment="Left" 
+  Margin="438,0,0,20" 
+  Click="BtnBackToMain_Click"/>
+
+        <TextBlock Text="Rapport des Ventes par Vendeur" FontSize="22" FontWeight="Bold" Foreground="#1E3A8A" Margin="0,0,0,15"/>
+
+        <DataGrid x:Name="SellersRevenueGrid" Grid.Row="1" AutoGenerateColumns="False" 
+                  CanUserAddRows="False" IsReadOnly="True"
+                  Background="Transparent" BorderThickness="0" 
+                  RowHeight="40" FontSize="13" GridLinesVisibility="Horizontal"
+                  HorizontalGridLinesBrush="#E2E8F0">
+            <DataGrid.Resources>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#EFF6FF"/>
+                    <Setter Property="Foreground" Value="#1E3A8A"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Padding" Value="10,8"/>
+                </Style>
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nom d'utilisateur" Binding="{Binding Username}" Width="*"/>
+                <DataGridTextColumn Header="Rôle" Binding="{Binding Role}" Width="130"/>
+                <DataGridTextColumn Header="Recette du Jour (DA)" Binding="{Binding DailyRevenue, StringFormat={}{0:N2}}" Width="160"/>
+                <DataGridTextColumn Header="Recette du Mois (DA)" Binding="{Binding MonthlyRevenue, StringFormat={}{0:N2}}" Width="160"/>
+            </DataGrid.Columns>
+        </DataGrid>
+      
+    </Grid>
+</Window>

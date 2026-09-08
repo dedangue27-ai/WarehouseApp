@@ -1,0 +1,68 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="AppTitle">Système de Gestion d'Entrepôt et POS - Professionnel</s:String>
+    <s:String x:Key="MenuInventory">📦 Gestion des Stocks et Produits</s:String>
+    <s:String x:Key="MenuSales">🛒 Point de Vente Direct (POS)</s:String>
+    <s:String x:Key="MenuAddProduct">➕ Ajouter un Produit</s:String>
+    <s:String x:Key="MenuAddUser">👤 Ajouter un Utilisateur</s:String>
+    <s:String x:Key="MenuLogs">📋 Journal des Activités</s:String>
+    <s:String x:Key="Logout">🚪 Déconnexion</s:String>
+    <s:String x:Key="SearchPlaceholder">Rechercher...</s:String>
+    <s:String x:Key="SearchBtn">🔍 Rechercher</s:String>
+    <s:String x:Key="RefreshBtn">🔄 Actualiser</s:String>
+    <s:String x:Key="EditBtn">✏️ Modifier</s:String>
+    <s:String x:Key="FlowDir">LeftToRight</s:String>
+    <FlowDirection x:Key="MainFlowDirection">LeftToRight</FlowDirection>
+    <s:String x:Key="SalesTitleKey">Système de Vente et POS</s:String>
+    <s:String x:Key="SearchPromptKey">🔍 Rechercher par nom ou scanner le code-barres puis Entrée</s:String>
+    <s:String x:Key="AddToCartKey">Ajouter au Panier</s:String>
+    <s:String x:Key="BarcodeColumnKey">Code-barres</s:String>
+    <s:String x:Key="ProductNameColumnKey">Nom du Produit</s:String>
+    <s:String x:Key="AvailableColumnKey">Disponible</s:String>
+    <s:String x:Key="PriceColumnKey">Prix</s:String>
+    <s:String x:Key="RequestedQtyColumnKey">Quantité</s:String>
+    <s:String x:Key="TotalColumnKey">Total</s:String>
+    <s:String x:Key="ActionColumnKey">Action</s:String>
+    <s:String x:Key="InvoiceDetailsKey">Détails de la Facture</s:String>
+    <s:String x:Key="SubTotalKey">Sous-total :</s:String>
+    <s:String x:Key="DiscountKey">Remise / Réduction</s:String>
+    <s:String x:Key="GrandTotalKey">Montant Total Global</s:String>
+    <s:String x:Key="CompleteSaleKey">🔒 Confirmer et Valider la Vente</s:String>
+    <s:String x:Key="CancelInvoiceKey">Annuler la Facture</s:String>
+
+    <!-- Ajouter un Produit -->
+    <s:String x:Key="AddProductTitleKey">Ajouter un Nouveau Produit</s:String>
+    <s:String x:Key="ProductNameLabelKey">Nom du Produit :</s:String>
+    <s:String x:Key="BarcodeLabelKey">Code-barres :</s:String>
+    <s:String x:Key="PurchasePriceLabelKey">Prix d'Achat :</s:String>
+    <s:String x:Key="SellingPriceLabelKey">Prix de Vente :</s:String>
+    <s:String x:Key="QuantityLabelKey">Quantité Initiale :</s:String>
+    <s:String x:Key="CategoryLabelKey">Catégorie :</s:String>
+    <s:String x:Key="SaveProductKey">Enregistrer le Produit</s:String>
+
+    <!-- Statistiques et Tableaux -->
+    <s:String x:Key="DailyRevenueKey">Recette Quotidienne (Ventes du jour)</s:String>
+    <s:String x:Key="MonthlyProfitKey">Bénéfice / Profits Mensuels</s:String>
+    <s:String x:Key="CurrencyKey">DA</s:String>
+    <s:String x:Key="InventoryManagementKey">Gestion des Stocks</s:String>
+    <s:String x:Key="ActivityLogsKey">Journal des Activités et Actions</s:String>
+    <s:String x:Key="IdColumnKey">ID</s:String>
+    <s:String x:Key="CategoryColumnKey">Catégorie</s:String>
+    <s:String x:Key="MinQuantityColumnKey">Stock Min</s:String>
+    <s:String x:Key="LogsTitleKey">Journal des Activités et du Système</s:String>
+    <s:String x:Key="CurrencyUnit">DA</s:String>
+    <s:String x:Key="LanguageLabelKey">🌐 Langue</s:String>
+    <s:String x:Key="CurrentUserKey">Utilisateur actuel</s:String>
+    <s:String x:Key="MainSectionsKey">Sections principales</s:String>
+
+    <!-- Ajouter un Utilisateur -->
+    <s:String x:Key="AddUserTitleKey">Ajouter un Nouvel Utilisateur</s:String>
+    <s:String x:Key="UsernameLabelKey">Nom d'utilisateur :</s:String>
+    <s:String x:Key="PasswordLabelKey">Mot de passe :</s:String>
+    <s:String x:Key="RoleLabelKey">Rôle / Permission :</s:String>
+    <s:String x:Key="SaveUserKey">Enregistrer l'Utilisateur</s:String>
+    <s:String x:Key="AdminRoleKey">Administrateur</s:String>
+    <s:String x:Key="SellerRoleKey">Vendeur</s:String>
+    <s:String x:Key="RoleColumnKey">Rôle d'utilisateur</s:String>
+</ResourceDictionary>

@@ -1,0 +1,1 @@
+"# WarehouseApp"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/dedangue27-ai/WarehouseApp.gitgit push -u origin main

@@ -1,0 +1,71 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+
+    <s:String x:Key="AppTitle">Inventory Management &amp; POS System - Pro</s:String>
+    <s:String x:Key="MenuInventory">📦 Inventory &amp; Products</s:String>
+    <s:String x:Key="MenuSales">🛒 Direct Point of Sale (POS)</s:String>
+    <s:String x:Key="MenuAddProduct">➕ Add Product</s:String>
+    <s:String x:Key="MenuAddUser">👤 Add New User</s:String>
+    <s:String x:Key="MenuLogs">📋 Activity &amp; Operation Logs</s:String>
+    <s:String x:Key="Logout">🚪 Logout</s:String>
+    <s:String x:Key="SearchPlaceholder">Search...</s:String>
+    <s:String x:Key="SearchBtn">🔍 Search</s:String>
+    <s:String x:Key="RefreshBtn">🔄 Refresh</s:String>
+    <s:String x:Key="EditBtn">✏️ Edit</s:String>
+    <s:String x:Key="FlowDir">LeftToRight</s:String>
+    <FlowDirection x:Key="MainFlowDirection">LeftToRight</FlowDirection>
+    <s:String x:Key="SalesTitleKey">Sales System &amp; POS</s:String>
+    <s:String x:Key="SearchPromptKey">🔍 Search by name or scan barcode then press Enter to add</s:String>
+    <s:String x:Key="AddToCartKey">Add to Cart</s:String>
+    <s:String x:Key="BarcodeColumnKey">Barcode</s:String>
+    <s:String x:Key="ProductNameColumnKey">Product Name</s:String>
+    <s:String x:Key="AvailableColumnKey">Available</s:String>
+    <s:String x:Key="PriceColumnKey">Price</s:String>
+    <s:String x:Key="RequestedQtyColumnKey">Requested Qty</s:String>
+    <s:String x:Key="TotalColumnKey">Total</s:String>
+    <s:String x:Key="ActionColumnKey">Action</s:String>
+    <s:String x:Key="InvoiceDetailsKey">Invoice Details</s:String>
+    <s:String x:Key="SubTotalKey">Subtotal:</s:String>
+    <s:String x:Key="DiscountKey">Discount</s:String>
+    <s:String x:Key="GrandTotalKey">Final Grand Total</s:String>
+    <s:String x:Key="CompleteSaleKey">🔒 Confirm and Complete Sale</s:String>
+    <s:String x:Key="CancelInvoiceKey">Cancel Invoice</s:String>
+
+    <!-- Add Product Window -->
+    <s:String x:Key="AddProductTitleKey">Add New Product</s:String>
+    <s:String x:Key="ProductNameLabelKey">Product Name:</s:String>
+    <s:String x:Key="BarcodeLabelKey">Barcode:</s:String>
+    <s:String x:Key="PurchasePriceLabelKey">Purchase Price:</s:String>
+    <s:String x:Key="SellingPriceLabelKey">Selling Price:</s:String>
+    <s:String x:Key="QuantityLabelKey">Initial Quantity:</s:String>
+    <s:String x:Key="CategoryLabelKey">Category:</s:String>
+    <s:String x:Key="SaveProductKey">Save Product</s:String>
+    <s:String x:Key="CurrencyUnit">DA</s:String>
+
+    <!-- DataGrid Columns & General Keys -->
+    <s:String x:Key="IdColumnKey">ID</s:String>
+    <s:String x:Key="CategoryColumnKey">Category</s:String>
+    <s:String x:Key="MinQuantityColumnKey">Min Stock</s:String>
+    <s:String x:Key="LogsTitleKey">Activity and System Logs</s:String>
+
+    <!-- Add User Window -->
+    <s:String x:Key="AddUserTitleKey">Add New User</s:String>
+    <s:String x:Key="UsernameLabelKey">Username:</s:String>
+    <s:String x:Key="PasswordLabelKey">Password:</s:String>
+    <s:String x:Key="RoleLabelKey">Role / Permission:</s:String>
+    <s:String x:Key="SaveUserKey">Save User</s:String>
+    <s:String x:Key="LanguageLabelKey">🌐 Language</s:String>
+    <s:String x:Key="CurrentUserKey">Current User</s:String>
+    <s:String x:Key="MainSectionsKey">Main Sections</s:String>
+
+    <!-- Dashboard & Statistics -->
+    <s:String x:Key="CurrencyKey">DA</s:String>
+    <s:String x:Key="InventoryManagementKey">Inventory Management</s:String>
+    <s:String x:Key="DailyRevenueKey">Daily Revenue (Today's Sales)</s:String>
+    <s:String x:Key="MonthlyProfitKey">Monthly Profit</s:String>
+    <s:String x:Key="ActivityLogsKey">Activity Logs</s:String>
+    <s:String x:Key="AdminRoleKey">Administrator</s:String>
+    <s:String x:Key="SellerRoleKey">Seller</s:String>
+    <s:String x:Key="RoleColumnKey">User Role</s:String>
+</ResourceDictionary>

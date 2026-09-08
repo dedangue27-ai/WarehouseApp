@@ -1,0 +1,55 @@
+﻿<Window x:Class="WarehouseApp.SalesHistoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Historique des Ventes" Height="550" Width="1030"
+        WindowStartupLocation="CenterScreen" FlowDirection="LeftToRight"
+        Background="#F8FAFC" FontFamily="Segoe UI">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Historique des Ventes" FontSize="22" FontWeight="Bold" Foreground="#1E3A8A" Margin="0,0,0,15"/>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,15">
+            <TextBlock Text="Rechercher (N° Facture / Vendeur / Produit) :" VerticalAlignment="Center" FontWeight="SemiBold" Margin="0,0,10,0"/>
+            <TextBox x:Name="TxtSearch" Width="250" Height="30" VerticalContentAlignment="Center" Padding="5,0" Margin="0,0,10,0" TextChanged="TxtSearch_TextChanged"/>
+        </StackPanel>
+        <Button x:Name="BtnBackToMain" 
+        Content="⬅ Retour au menu" 
+        Width="150" 
+        Height="35" 
+        HorizontalAlignment="Left" 
+        Margin="794,33,0,32" 
+        Click="BtnBackToMain_Click" Grid.RowSpan="2"/>
+
+        <DataGrid x:Name="SalesHistoryGrid" Grid.Row="2" AutoGenerateColumns="False" 
+                  CanUserAddRows="False" IsReadOnly="True"
+                  Background="Transparent" BorderThickness="0" 
+                  RowHeight="40" FontSize="13" GridLinesVisibility="Horizontal"
+                  HorizontalGridLinesBrush="#E2E8F0"
+                  MouseDoubleClick="SalesHistoryGrid_MouseDoubleClick">
+            <DataGrid.Resources>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#EFF6FF"/>
+                    <Setter Property="Foreground" Value="#1E3A8A"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Padding" Value="10,8"/>
+                </Style>
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="N° de Facture" Binding="{Binding InvoiceNumber}" Width="130"/>
+                <DataGridTextColumn Header="Vendeur" Binding="{Binding SoldBy}" Width="120"/>
+                <DataGridTextColumn Header="Produit" Binding="{Binding ProductName}" Width="*"/>
+                <DataGridTextColumn Header="Quantité" Binding="{Binding Quantity}" Width="80"/>
+                <DataGridTextColumn Header="Prix Unitaire" Binding="{Binding UnitPrice, StringFormat={}{0:N2}}" Width="110"/>
+                <DataGridTextColumn Header="Remise" Binding="{Binding Discount, StringFormat={}{0:N2}}" Width="100"/>
+                <DataGridTextColumn Header="Montant Total" Binding="{Binding TotalAmount, StringFormat={}{0:N2}}" Width="120"/>
+                <DataGridTextColumn Header="Statu" Binding="{Binding Status}" Width="100"/>
+                <DataGridTextColumn Header="Date" Binding="{Binding SaleDate}" Width="130"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

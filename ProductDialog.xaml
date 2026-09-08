@@ -1,0 +1,83 @@
+﻿<Window x:Class="WarehouseApp.AddProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{DynamicResource AddProductTitleKey}" Height="635" Width="420"
+        WindowStartupLocation="CenterScreen" FlowDirection="{DynamicResource MainFlowDirection}"
+        Background="#F8FAFC" FontFamily="Segoe UI">
+
+    <Window.Resources>
+        <!-- ستايل 3D للحقول (TextBox) -->
+        <Style x:Key="TextBox3D" TargetType="TextBox">
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="Background" Value="#F8FAFC"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" CornerRadius="8">
+                            <Border.Effect>
+                                <DropShadowEffect Color="#000000" BlurRadius="4" ShadowDepth="2" Direction="270" Opacity="0.1"/>
+                            </Border.Effect>
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="false" Margin="5,0"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- ستايل 3D الأخضر للزر الرئيسي -->
+        <Style x:Key="Btn3DSuccess" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" CornerRadius="10" Padding="{TemplateBinding Padding}">
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                    <GradientStop Color="#10B981" Offset="0.0"/>
+                                    <GradientStop Color="#059669" Offset="1.0"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <Border.Effect>
+                                <DropShadowEffect Color="#065F46" BlurRadius="8" ShadowDepth="4" Direction="270" Opacity="0.4"/>
+                            </Border.Effect>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Border Background="White" CornerRadius="16" Margin="20">
+        <StackPanel Margin="20" VerticalAlignment="Center">
+            <TextBlock Text="{DynamicResource AddProductTitleKey}" FontSize="22" FontWeight="Bold" 
+                       Foreground="#1E3A8A" Margin="0,0,0,15" HorizontalAlignment="Center"/>
+
+            <TextBlock Text="{DynamicResource BarcodeLabelKey}" FontWeight="SemiBold" Foreground="#475569" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtCode" Style="{StaticResource TextBox3D}" Height="38" Margin="0,0,0,10" KeyDown="Input_KeyDown"/>
+
+            <TextBlock Text="{DynamicResource ProductNameLabelKey}" FontWeight="SemiBold" Foreground="#475569" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtName" Style="{StaticResource TextBox3D}" Height="38" Margin="0,0,0,10" KeyDown="Input_KeyDown"/>
+
+            <TextBlock Text="{DynamicResource PurchasePriceLabelKey}" FontWeight="SemiBold" Foreground="#475569" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtPurchasePrice" Style="{StaticResource TextBox3D}" Height="38" Margin="0,0,0,10" KeyDown="Input_KeyDown"/>
+
+            <TextBlock Text="{DynamicResource SellingPriceLabelKey}" FontWeight="SemiBold" Foreground="#475569" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtSellingPrice" Style="{StaticResource TextBox3D}" Height="38" Margin="0,0,0,10" KeyDown="Input_KeyDown"/>
+
+            <TextBlock Text="{DynamicResource QuantityLabelKey}" FontWeight="SemiBold" Foreground="#475569" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtQuantity" Style="{StaticResource TextBox3D}" Height="38" Margin="0,0,0,10" KeyDown="Input_KeyDown"/>
+
+            <TextBlock Text="Date d'expiration (Optionnel)" FontWeight="SemiBold" Foreground="#475569" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtExpiryDate" Style="{StaticResource TextBox3D}" Height="38" Margin="0,0,0,15" KeyDown="Input_KeyDown" ToolTip="Exemple: 2027/12 ou 6 mois"/>
+
+            <Button Content="{DynamicResource SaveProductKey}" Style="{StaticResource Btn3DSuccess}" Height="50" Click="BtnSaveProduct_Click"/>
+        </StackPanel>
+    </Border>
+</Window>
