@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -18,6 +18,7 @@ namespace WarehouseApp
 
         private List<DataRowView> selectedInventoryItems = new List<DataRowView>();
 
+
         public MainWindow(string username, string role)
         {
             InitializeComponent();
@@ -28,6 +29,13 @@ namespace WarehouseApp
             {
                 TxtWorkerName.Text = currentUsername;
             }
+
+            // --- أضف هذا السطر هنا لجلب رقم الإصدار الحقيقي وتحديثه في الواجهة ---
+            TxtAppVersion.Text = "v" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+
+            ApplyUserPermissions();
+
+            this.Loaded += MainWindow_Loaded;
 
             ApplyUserPermissions();
 
