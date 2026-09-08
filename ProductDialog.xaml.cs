@@ -1,40 +1,55 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
 using System.Windows;
 using System.Windows.Input;
 
 namespace WarehouseApp
 {
+    public class InvoiceItemModel
+    {
+        public string Code { get; set; }
+        public string Name { get; set; }
+        public decimal PurchasePrice { get; set; }
+        public decimal SellingPrice { get; set; }
+        public int Quantity { get; set; }
+        public string ExpiryDate { get; set; }
+    }
+
     public partial class AddProductWindow : Window
     {
-        // تعريف متغير لتحديد ما إذا كنا في وضع التعديل أم الإضافة الجديدة
-        private int editingProductId = 0;
+        public ObservableCollection<InvoiceItemModel> InvoiceItems { get; set; } = new ObservableCollection<InvoiceItemModel>();
 
         public AddProductWindow()
         {
             InitializeComponent();
-            Loaded += (s, e) => TxtCode.Focus();
+            GridInvoiceProducts.ItemsSource = InvoiceItems;
+            Loaded += (s, e) =>
+            {
+                TxtInvoiceNumber.Focus();
+                TxtCode.Text = GenerateBarcode();
+            };
+        }
+
+        private string GenerateBarcode()
+        {
+            return DateTime.Now.ToString("yyMMddHHmmssfff");
         }
 
         public AddProductWindow(string defaultCode) : this()
         {
-            if (TxtCode != null)
-            {
-                TxtCode.Text = defaultCode;
-            }
+            if (TxtCode != null && !string.IsNullOrEmpty(defaultCode)) TxtCode.Text = defaultCode;
         }
 
         public AddProductWindow(string defaultCode, string defaultName) : this()
         {
-            if (TxtCode != null) TxtCode.Text = defaultCode;
+            if (TxtCode != null && !string.IsNullOrEmpty(defaultCode)) TxtCode.Text = defaultCode;
             if (TxtName != null) TxtName.Text = defaultName;
         }
 
-        // المُنشئ الخاص بفتح النافذة لوضع التعديل عند النقر المزدوج
         public AddProductWindow(int productId, string code, string name, decimal purchasePrice, decimal sellingPrice, int quantity, string expiryDate) : this()
         {
-            editingProductId = productId; // تخزين معرف المنتج لتمييز عملية التعديل
-
             if (TxtCode != null) TxtCode.Text = code;
             if (TxtName != null) TxtName.Text = name;
             if (TxtPurchasePrice != null) TxtPurchasePrice.Text = purchasePrice.ToString("0.##");
@@ -42,82 +57,110 @@ namespace WarehouseApp
             if (TxtQuantity != null) TxtQuantity.Text = quantity.ToString();
             if (TxtExpiryDate != null) TxtExpiryDate.Text = expiryDate;
 
-            // تغيير عنوان النافذة ونص الزر ليناسب وضع التعديل
-            this.Title = "Modifier le produit";
+            InvoiceItems.Add(new InvoiceItemModel
+            {
+                Code = code,
+                Name = name,
+                PurchasePrice = purchasePrice,
+                SellingPrice = sellingPrice,
+                Quantity = quantity,
+                ExpiryDate = expiryDate
+            });
 
-            // البحث عن زر الحفظ وتغيير نصه إن أمكن، أو الاعتماد على التعديل المباشر
-            // (تأكد من إعطاء اسم x:Name="BtnSaveProduct" للزر في ملف الـ XAML إن لم يكن موجوداً)
+            CalculateTotalInvoice();
         }
 
-        private void Input_KeyDown(object sender, KeyEventArgs e)
+        private void CalculateTotalInvoice()
         {
-            if (e.Key == Key.Enter)
+            decimal total = InvoiceItems.Sum(item => item.PurchasePrice * item.Quantity);
+            if (TxtTotalInvoicePrice != null)
             {
-                e.Handled = true;
-                if (sender == TxtCode) TxtName.Focus();
-                else if (sender == TxtName) TxtPurchasePrice.Focus();
-                else if (sender == TxtPurchasePrice) TxtSellingPrice.Focus();
-                else if (sender == TxtSellingPrice) TxtQuantity.Focus();
-                else if (sender == TxtQuantity) TxtExpiryDate.Focus();
-                else if (sender == TxtExpiryDate) BtnSaveProduct_Click(sender, e);
+                TxtTotalInvoicePrice.Text = total.ToString("0.##");
             }
         }
 
-        private void BtnSaveProduct_Click(object sender, RoutedEventArgs e)
+        private void BtnAddToList_Click(object sender, RoutedEventArgs e)
+        {
+            string code = TxtCode.Text.Trim();
+            string name = TxtName.Text.Trim();
+
+            if (string.IsNullOrEmpty(code) || string.IsNullOrEmpty(name))
+            {
+                MessageBox.Show("Veuillez saisir au moins le code-barres et le nom du produit.", "Avertissement", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (!decimal.TryParse(TxtPurchasePrice.Text.Trim(), out decimal purchasePrice)) purchasePrice = 0;
+            if (!decimal.TryParse(TxtSellingPrice.Text.Trim(), out decimal sellingPrice)) sellingPrice = 0;
+            if (!int.TryParse(TxtQuantity.Text.Trim(), out int quantity)) quantity = 1;
+            string expiryDate = TxtExpiryDate.Text.Trim();
+
+            InvoiceItems.Add(new InvoiceItemModel
+            {
+                Code = code,
+                Name = name,
+                PurchasePrice = purchasePrice,
+                SellingPrice = sellingPrice,
+                Quantity = quantity,
+                ExpiryDate = expiryDate
+            });
+
+            CalculateTotalInvoice();
+
+            // توليد باركود افتراضي جديد بالوقت والتاريخ للمنتج التالي وتفريغ الحقول
+            TxtCode.Text = GenerateBarcode();
+            TxtName.Clear();
+            TxtPurchasePrice.Clear();
+            TxtSellingPrice.Clear();
+            TxtQuantity.Clear();
+            TxtExpiryDate.Clear();
+
+            // الانتقال المباشر لخانة اسم المنتج
+            TxtName.Focus();
+        }
+
+        private void BtnSaveInvoice_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                string code = TxtCode.Text.Trim();
-                string name = TxtName.Text.Trim();
-                string purchasePriceStr = TxtPurchasePrice.Text.Trim();
-                string sellingPriceStr = TxtSellingPrice.Text.Trim();
-                string quantityStr = TxtQuantity.Text.Trim();
-                string expiryDate = TxtExpiryDate.Text.Trim();
-
-                if (string.IsNullOrEmpty(code) || string.IsNullOrEmpty(name))
+                if (InvoiceItems.Count == 0)
                 {
-                    MessageBox.Show("Veuillez remplir au moins le code et le nom du produit.", "Avertissement", MessageBoxButton.OK, MessageBoxImage.Warning);
-                    TxtCode.Focus();
+                    MessageBox.Show("Veuillez ajouter au moins un produit à la liste.", "Avertissement", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
-                if (!decimal.TryParse(purchasePriceStr, out decimal purchasePrice)) purchasePrice = 0;
-                if (!decimal.TryParse(sellingPriceStr, out decimal sellingPrice)) sellingPrice = 0;
-                if (!int.TryParse(quantityStr, out int quantity)) quantity = 1;
+                string invoiceNumber = TxtInvoiceNumber.Text.Trim();
+                string supplier = TxtSupplier.Text.Trim();
 
-                string query;
-                var parameters = new Dictionary<string, object>
-                {
-                    { "@Code", code },
-                    { "@Name", name },
-                    { "@PurchasePrice", purchasePrice },
-                    { "@SellingPrice", sellingPrice },
-                    { "@Quantity", quantity },
-                    { "@ExpiryDate", string.IsNullOrEmpty(expiryDate) ? (object)DBNull.Value : expiryDate }
-                };
+                if (!decimal.TryParse(TxtTotalInvoicePrice.Text.Trim(), out decimal totalInvoicePrice)) totalInvoicePrice = 0;
 
-                // إذا كان editingProductId أكبر من صفر، فهذا يعني أننا نقوم بتعديل منتج موجود مسبقاً
-                if (editingProductId > 0)
+                foreach (var item in InvoiceItems)
                 {
-                    query = "UPDATE Products SET Code = @Code, Name = @Name, PurchasePrice = @PurchasePrice, SellingPrice = @SellingPrice, Quantity = @Quantity, ExpiryDate = @ExpiryDate WHERE Id = @Id";
-                    parameters.Add("@Id", editingProductId);
-                }
-                else
-                {
-                    // خلاف ذلك، عملية إضافة منتج جديد
-                    query = "INSERT INTO Products (Code, Name, PurchasePrice, SellingPrice, Quantity, ExpiryDate) VALUES (@Code, @Name, @PurchasePrice, @SellingPrice, @Quantity, @ExpiryDate)";
+                    string query = "INSERT INTO Products (Code, Name, PurchasePrice, SellingPrice, Quantity, ExpiryDate) VALUES (@Code, @Name, @PurchasePrice, @SellingPrice, @Quantity, @ExpiryDate)";
+
+                    var parameters = new Dictionary<string, object>
+                    {
+                        { "@Code", item.Code },
+                        { "@Name", item.Name },
+                        { "@PurchasePrice", item.PurchasePrice },
+                        { "@SellingPrice", item.SellingPrice },
+                        { "@Quantity", item.Quantity },
+                        { "@ExpiryDate", string.IsNullOrEmpty(item.ExpiryDate) ? (object)DBNull.Value : item.ExpiryDate },
+                        { "@InvoiceNumber", string.IsNullOrEmpty(invoiceNumber) ? (object)DBNull.Value : invoiceNumber },
+                        { "@Supplier", string.IsNullOrEmpty(supplier) ? (object)DBNull.Value : supplier },
+                        { "@TotalInvoicePrice", totalInvoicePrice }
+                    };
+
+                    DatabaseHelper.ExecuteNonQuery(query, parameters);
                 }
 
-                DatabaseHelper.ExecuteNonQuery(query, parameters);
-
-                MessageBox.Show("Le produit a été enregistré avec succès !", "Succès", MessageBoxButton.OK, MessageBoxImage.Information);
-
+                MessageBox.Show("La facture et tous les produits ont été enregistrés avec succès !", "Succès", MessageBoxButton.OK, MessageBoxImage.Information);
                 this.DialogResult = true;
                 this.Close();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Une erreur s'est produite lors de l'enregistrement : " + ex.Message, "Erreur", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Erreur lors de l'enregistrement : " + ex.Message, "Erreur", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }

@@ -1,34 +1,48 @@
 ﻿<Window x:Class="WarehouseApp.AddProductWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="{DynamicResource AddProductTitleKey}" Height="635" Width="420"
+        Title="Gestion de la facture et des produits" Height="750" Width="800"
         WindowStartupLocation="CenterScreen" FlowDirection="{DynamicResource MainFlowDirection}"
         Background="#F8FAFC" FontFamily="Segoe UI">
 
     <Window.Resources>
-        <!-- ستايل 3D للحقول (TextBox) -->
         <Style x:Key="TextBox3D" TargetType="TextBox">
-            <Setter Property="FontSize" Value="15"/>
-            <Setter Property="Padding" Value="10,6"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="8,4"/>
             <Setter Property="Background" Value="#F8FAFC"/>
             <Setter Property="BorderThickness" Value="0"/>
             <Setter Property="VerticalContentAlignment" Value="Center"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="TextBox">
-                        <Border x:Name="border" Background="{TemplateBinding Background}" CornerRadius="8">
+                        <Border x:Name="border" Background="{TemplateBinding Background}" CornerRadius="6">
                             <Border.Effect>
-                                <DropShadowEffect Color="#000000" BlurRadius="4" ShadowDepth="2" Direction="270" Opacity="0.1"/>
+                                <DropShadowEffect Color="#000000" BlurRadius="3" ShadowDepth="1" Direction="270" Opacity="0.1"/>
                             </Border.Effect>
-                            <ScrollViewer x:Name="PART_ContentHost" Focusable="false" Margin="5,0"/>
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="false" Margin="4,0"/>
                         </Border>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
         </Style>
 
-        <!-- ستايل 3D الأخضر للزر الرئيسي -->
-        <Style x:Key="Btn3DSuccess" TargetType="Button">
+        <Style x:Key="BtnPrimary" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="border" CornerRadius="8" Background="#3B82F6" Padding="12,6">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="BtnSuccess" TargetType="Button">
             <Setter Property="Foreground" Value="White"/>
             <Setter Property="FontSize" Value="16"/>
             <Setter Property="FontWeight" Value="Bold"/>
@@ -36,16 +50,7 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border x:Name="border" CornerRadius="10" Padding="{TemplateBinding Padding}">
-                            <Border.Background>
-                                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                                    <GradientStop Color="#10B981" Offset="0.0"/>
-                                    <GradientStop Color="#059669" Offset="1.0"/>
-                                </LinearGradientBrush>
-                            </Border.Background>
-                            <Border.Effect>
-                                <DropShadowEffect Color="#065F46" BlurRadius="8" ShadowDepth="4" Direction="270" Opacity="0.4"/>
-                            </Border.Effect>
+                        <Border x:Name="border" CornerRadius="10" Background="#10B981" Padding="15,10">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                     </ControlTemplate>
@@ -54,30 +59,101 @@
         </Style>
     </Window.Resources>
 
-    <Border Background="White" CornerRadius="16" Margin="20">
-        <StackPanel Margin="20" VerticalAlignment="Center">
-            <TextBlock Text="{DynamicResource AddProductTitleKey}" FontSize="22" FontWeight="Bold" 
-                       Foreground="#1E3A8A" Margin="0,0,0,15" HorizontalAlignment="Center"/>
+    <Border Background="White" CornerRadius="12" Margin="12">
+        <Grid Margin="12">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
 
-            <TextBlock Text="{DynamicResource BarcodeLabelKey}" FontWeight="SemiBold" Foreground="#475569" Margin="0,0,0,5"/>
-            <TextBox x:Name="TxtCode" Style="{StaticResource TextBox3D}" Height="38" Margin="0,0,0,10" KeyDown="Input_KeyDown"/>
+            <!-- 1. En-tête de la facture -->
+            <Border Grid.Row="0" Background="#F1F5F9" CornerRadius="8" Padding="10" Margin="0,0,0,10">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
 
-            <TextBlock Text="{DynamicResource ProductNameLabelKey}" FontWeight="SemiBold" Foreground="#475569" Margin="0,0,0,5"/>
-            <TextBox x:Name="TxtName" Style="{StaticResource TextBox3D}" Height="38" Margin="0,0,0,10" KeyDown="Input_KeyDown"/>
+                    <StackPanel Grid.Column="0" Margin="5">
+                        <TextBlock Text="Numéro de facture" FontWeight="SemiBold" Foreground="#475569" FontSize="12"/>
+                        <TextBox x:Name="TxtInvoiceNumber" Style="{StaticResource TextBox3D}" Height="32"/>
+                    </StackPanel>
 
-            <TextBlock Text="{DynamicResource PurchasePriceLabelKey}" FontWeight="SemiBold" Foreground="#475569" Margin="0,0,0,5"/>
-            <TextBox x:Name="TxtPurchasePrice" Style="{StaticResource TextBox3D}" Height="38" Margin="0,0,0,10" KeyDown="Input_KeyDown"/>
+                    <StackPanel Grid.Column="1" Margin="5">
+                        <TextBlock Text="Fournisseur" FontWeight="SemiBold" Foreground="#475569" FontSize="12"/>
+                        <TextBox x:Name="TxtSupplier" Style="{StaticResource TextBox3D}" Height="32"/>
+                    </StackPanel>
 
-            <TextBlock Text="{DynamicResource SellingPriceLabelKey}" FontWeight="SemiBold" Foreground="#475569" Margin="0,0,0,5"/>
-            <TextBox x:Name="TxtSellingPrice" Style="{StaticResource TextBox3D}" Height="38" Margin="0,0,0,10" KeyDown="Input_KeyDown"/>
+                    <StackPanel Grid.Column="2" Margin="5">
+                        <TextBlock Text="Total facture" FontWeight="SemiBold" Foreground="#475569" FontSize="12"/>
+                        <TextBox x:Name="TxtTotalInvoicePrice" Style="{StaticResource TextBox3D}" Height="32" IsReadOnly="True" Background="#E2E8F0"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
 
-            <TextBlock Text="{DynamicResource QuantityLabelKey}" FontWeight="SemiBold" Foreground="#475569" Margin="0,0,0,5"/>
-            <TextBox x:Name="TxtQuantity" Style="{StaticResource TextBox3D}" Height="38" Margin="0,0,0,10" KeyDown="Input_KeyDown"/>
+            <!-- 2. Champs d'ajout du produit -->
+            <Border Grid.Row="1" Background="#F8FAFC" BorderBrush="#E2E8F0" BorderThickness="1" CornerRadius="8" Padding="10" Margin="0,0,0,10">
+                <StackPanel>
+                    <TextBlock Text="Ajouter un produit à la facture" FontWeight="Bold" Foreground="#1E3A8A" Margin="0,0,0,8"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1.2*"/>
+                            <ColumnDefinition Width="1.8*"/>
+                            <ColumnDefinition Width="0.9*"/>
+                            <ColumnDefinition Width="0.9*"/>
+                            <ColumnDefinition Width="0.7*"/>
+                            <ColumnDefinition Width="1.1*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
 
-            <TextBlock Text="Date d'expiration (Optionnel)" FontWeight="SemiBold" Foreground="#475569" Margin="0,0,0,5"/>
-            <TextBox x:Name="TxtExpiryDate" Style="{StaticResource TextBox3D}" Height="38" Margin="0,0,0,15" KeyDown="Input_KeyDown" ToolTip="Exemple: 2027/12 ou 6 mois"/>
+                        <StackPanel Grid.Column="0" Margin="2">
+                            <TextBlock Text="Code-barres" FontSize="11" Foreground="#64748B"/>
+                            <TextBox x:Name="TxtCode" Style="{StaticResource TextBox3D}" Height="30"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="1" Margin="2">
+                            <TextBlock Text="Nom du produit" FontSize="11" Foreground="#64748B"/>
+                            <TextBox x:Name="TxtName" Style="{StaticResource TextBox3D}" Height="30"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="2" Margin="2">
+                            <TextBlock Text="Prix d'achat" FontSize="11" Foreground="#64748B"/>
+                            <TextBox x:Name="TxtPurchasePrice" Style="{StaticResource TextBox3D}" Height="30"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="3" Margin="2">
+                            <TextBlock Text="Prix de vente" FontSize="11" Foreground="#64748B"/>
+                            <TextBox x:Name="TxtSellingPrice" Style="{StaticResource TextBox3D}" Height="30"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="4" Margin="2">
+                            <TextBlock Text="Quantité" FontSize="11" Foreground="#64748B"/>
+                            <TextBox x:Name="TxtQuantity" Style="{StaticResource TextBox3D}" Height="30"/>
+                        </StackPanel>
+                        <StackPanel Grid.Column="5" Margin="2">
+                            <TextBlock Text="Date d'expiration" FontSize="11" Foreground="#64748B"/>
+                            <TextBox x:Name="TxtExpiryDate" Style="{StaticResource TextBox3D}" Height="30" ToolTip="Format: JJ/MM/AAAA ou AAAA-MM-JJ"/>
+                        </StackPanel>
 
-            <Button Content="{DynamicResource SaveProductKey}" Style="{StaticResource Btn3DSuccess}" Height="50" Click="BtnSaveProduct_Click"/>
-        </StackPanel>
+                        <Button Grid.Column="6" Content="➕ Ajouter" Style="{StaticResource BtnPrimary}" Height="30" VerticalAlignment="Bottom" Margin="4,0,0,0" Click="BtnAddToList_Click"/>
+                    </Grid>
+                </StackPanel>
+            </Border>
+
+            <!-- 3. Tableau des produits de la facture -->
+            <DataGrid x:Name="GridInvoiceProducts" Grid.Row="2" AutoGenerateColumns="False" CanUserAddRows="False" 
+                      Background="White" BorderBrush="#E2E8F0" Margin="0,0,0,10">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Code-barres" Binding="{Binding Code}" Width="*"/>
+                    <DataGridTextColumn Header="Nom du produit" Binding="{Binding Name}" Width="1.5*"/>
+                    <DataGridTextColumn Header="Prix d'achat" Binding="{Binding PurchasePrice}" Width="*"/>
+                    <DataGridTextColumn Header="Prix de vente" Binding="{Binding SellingPrice}" Width="*"/>
+                    <DataGridTextColumn Header="Quantité" Binding="{Binding Quantity}" Width="0.7*"/>
+                    <DataGridTextColumn Header="Date d'expiration" Binding="{Binding ExpiryDate}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- 4. Bouton d'enregistrement final -->
+            <Button Grid.Row="3" Content="💾 Enregistrer la facture et tous les produits" Style="{StaticResource BtnSuccess}" Height="45" Click="BtnSaveInvoice_Click"/>
+        </Grid>
     </Border>
 </Window>
