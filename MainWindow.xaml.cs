@@ -56,7 +56,7 @@ AutoUpdater.CheckForUpdateEvent += args =>
     }
 };
 
-AutoUpdater.Start("https://raw.githubusercontent.com/dedangue27-ai/WarehouseApp/refs/heads/main/update.xml");
+AutoUpdater.Start(https://raw.githubusercontent.com/dedangue27-ai/WarehouseApp/refs/heads/main/update.xml"); 
         }
 
         // دالة لفتح نافذة التعديل عند النقر المزدوج على صف المنتج
