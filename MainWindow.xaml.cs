@@ -42,22 +42,25 @@ namespace WarehouseApp
             this.Loaded += MainWindow_Loaded;
 
             
-            // كود التحقق من التحديثات
+            / كود التحقق من التحديثات
             AutoUpdater.ReportErrors = true;
-AutoUpdater.ShowRemindLaterButton = true;
-AutoUpdater.ShowSkipButton = true;
-AutoUpdater.RunUpdateAsAdmin = true;
+            AutoUpdater.ShowRemindLaterButton = true;
+            AutoUpdater.ShowSkipButton = true;
+            AutoUpdater.RunUpdateAsAdmin = true;
 
-AutoUpdater.CheckForUpdateEvent += args =>
-{
-    if (args.Error != null)
-    {
-        MessageBox.Show($"حدث خطأ أثناء التحديث: {args.Error.Message}", "خطأ", MessageBoxButton.OK, MessageBoxImage.Error);
-    }
-};
+            AutoUpdater.CheckForUpdateEvent += args =>
+            {
+                if (args.Error != null)
+                {
+                    MessageBox.Show($"حدث خطأ أثناء التحديث: {args.Error.Message}", "خطأ", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+            };
 
-AutoUpdater.Start("https://raw.githubusercontent.com/dedangue27-ai/WarehouseApp/main/update.xml"); 
+            AutoUpdater.ExecutablePath = "WarehouseApp.exe";
+
+            AutoUpdater.Start("https://raw.githubusercontent.com/dedangue27-ai/WarehouseApp/refs/heads/main/update.xml");
         }
+
 
         // دالة لفتح نافذة التعديل عند النقر المزدوج على صف المنتج
         private void ProductsGrid_MouseDoubleClick(object sender, System.Windows.Input.MouseButtonEventArgs e)
