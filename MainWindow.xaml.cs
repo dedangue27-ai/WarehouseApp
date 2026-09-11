@@ -58,7 +58,7 @@ namespace WarehouseApp
 
             AutoUpdater.ExecutablePath = "WarehouseApp.exe";
 
-            AutoUpdater.Start("https://raw.githubusercontent.com/dedangue27-ai/WarehouseApp/refs/heads/main/update.xml");
+            AutoUpdater.Start("https://raw.githubusercontent.com/dedangue27-ai/WarehouseApp/main/update.xml");
         }
 
 
